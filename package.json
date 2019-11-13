@@ -2,17 +2,17 @@
   "name": "railwaysir",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://josh3r.github.io/RailwaysIR/",
+  "homepage": "https://github.com/Josh3r/josh3r.github.io-railwaysir",
   "dependencies": {
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^1.2.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "predeply": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
